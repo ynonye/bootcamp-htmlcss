@@ -1,6 +1,7 @@
-background-color {
-    color: red;
+body {
+    background-color: lightgrey;
 }
+
 h1 {
     font-size:xx-large; 
     color: chartreuse;
@@ -13,7 +14,7 @@ h3 {
 }
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aqua;
+    color: lightpink;
 }
 p {
     color: bisque;
