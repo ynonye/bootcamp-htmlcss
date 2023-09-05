@@ -1,7 +1,14 @@
-div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+#box1 {
+  font-size: x-large;  
+  border: 2px solid red;
+  border-radius: 20px;
   }
-  
+#box2 {
+  font: bold;
+  font-style: italic;
+}
+#box3 {
+  color: white;
+  box-shadow: 5px;
+  background-color: black;
+  }
