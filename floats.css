@@ -1,4 +1,31 @@
-#head{
-    color: orange;
+#head {
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    size: 100px;
+  }
+#side {
+    float: left;
+    width: 60%;
+    background: #ccc;
+    padding: 20px;
+    background-color: green;
 }
+#main {
+    float: right;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+    background-color: purple;
+}
+#footer {
+    float: down;
+    width: 50%;
+    background: #ccc;
+    padding: 50px;
+    background-color: blue;
+}
+
+
 
