@@ -4,10 +4,12 @@
     text-align: center;
     color: black;
     size: 100px;
+    height: 200px;
   }
 #side {
     float: left;
-    width: 60%;
+    width: 30%;
+    text-align: left;
     background: #ccc;
     padding: 20px;
     background-color: green;
