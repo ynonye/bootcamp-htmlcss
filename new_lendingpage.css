@@ -31,21 +31,20 @@ p {
 }
 
 #navbar {
-    background: orangered;
+    background: orangered ;
     color: #fff;    
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 
 #navbar a {
     color: #fff;
 
-    
 }
 
 #navbar h1 {
     float: center;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #navbar h3 {
@@ -71,4 +70,7 @@ p {
     background: orange;
     color: aqua;
 }
-
+img {
+    width: 30%;
+    height: 40%;
+}
