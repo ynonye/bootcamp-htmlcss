@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background: black;
+    justify-content: space-between;
+    margin: 30px;
+    
+
+}
+
+.one {
+    color: white;
+    
+}
+
+.two {
+    color: white;
+}
+
+.three {
+    color: white;
+}
+
+.four {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    
+}
