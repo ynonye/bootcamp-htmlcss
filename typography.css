@@ -1,0 +1,23 @@
+@media (min-width: 30em) {
+    header {
+        font-size: 125%;
+    }
+} 
+
+@media (min-width: 40em) {
+    header {
+        font-size: 150%; 
+    }
+}
+
+@media (min-width: 50em) {
+    header {
+        font-size: 175%; 
+    }
+}
+
+@media (min-width: 60em) {
+    header {
+        font-size: 200%; 
+    }
+}
