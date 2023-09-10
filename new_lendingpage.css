@@ -34,15 +34,24 @@ p {
     background: orangered;
     color: #fff;
     overflow: auto;
+    padding-top: 100px;
+    float: center;
+     
 }
 
 #navbar a {
     color: #fff;
+
+    
 }
 
 #navbar h1 {
-    float: left;
+    float: center;
     padding-top: 20px;
+}
+
+#navbar h3 {
+    float: center;
 }
 
 #navbar ul {
