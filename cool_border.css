@@ -1,0 +1,23 @@
+* {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    flex-wrap: wrap;    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: red;
+   
+}
+.rectangle2 {
+    right: 800px;
+    background: blue;
+    display: flex;
+    justify-content: right;
+    
+}
