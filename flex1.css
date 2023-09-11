@@ -14,6 +14,11 @@ body {
 
 }
 
+.item {
+    height: 100px;
+    width: 100px;
+    color: ;
+}
 .item-1 {
     background-color: green;
 }
