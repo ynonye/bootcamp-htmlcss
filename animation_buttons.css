@@ -53,7 +53,7 @@
     transition: height 1s;
   }
   .button-1:hover::after {
-    content: "Cool!";
+    content: "YES!!!";
     height: 100%;
   }
   
@@ -70,10 +70,10 @@
       width: 0;
       height: 100%;
       position: absolute;
-      background-color: rgb(0, 21, 255);
+      background-color: blue;
       left: 0;
       top: 0;
-      transition: width 1s;
+      transition: width 2s;
   }
   .button-2:hover::before {
     width: 100%;
@@ -117,7 +117,7 @@
       position: absolute;
       color: white;
       font-size: 10rem;
-      background-color: #000;
+      background-color: green;
       left: -50%;
       top: -50%;
       transition: all 1s;
