@@ -8,11 +8,9 @@ html {
     box-sizing: border-box;
 }
 
-h3 {
-    color: blue;
+a:after {
+    content: ' (' attr(herf) ')';
 }
 
-{
-    
-}
+
 
