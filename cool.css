@@ -1,0 +1,11 @@
+.cool-border {
+    height: 400px;  
+    width: 500px;
+    background: black;
+}
+
+.cool-border:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
