@@ -1,14 +1,19 @@
-.continer {
+.container {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 1rem;
-
-
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.item1:first-child {
-    grid-column: 1 / span 2; 
-    grid-column-start: 1;
-    grid-column-end: 3;
-    color: red;
+.grid-item {
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.grid-item-1 {
+    background: red;
+    border-radius: 15px; 
+}
+
