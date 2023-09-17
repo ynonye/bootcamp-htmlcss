@@ -1,16 +1,26 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 html {
     box-sizing: border-box;
 }
 
-a:after {
-    content: ' (' attr(herf) ')';
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+a {
+    text-decoration: none;
 }
 
+.web, a::after{
+    content: '(' attr(href) ')';
+    color: blueviolet;
 
+}
 
