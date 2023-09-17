@@ -1,7 +1,30 @@
-@media (max-width:992px) {
-    body { 
-        background-color: blue; 
-        color: white;
-    }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
+.container-flex {
+    display: flex;
+    background-color: brown;
+    border: none;
+}
+
+div {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media(max-width: 500px) {
+    .item1, .item2 {
+        display: none;
+    }
+
+    .item3 .item4{
+        flex-grow: 1;
+    }
+    
+    
+ }
