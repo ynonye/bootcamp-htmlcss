@@ -1,0 +1,7 @@
+p {
+    @media (max-width: 600px) {
+        p {
+            text-size-adjust: 22px;
+        }
+    }
+}
