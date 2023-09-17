@@ -1,0 +1,23 @@
+a[href] {
+    position: relative;
+    text-decoration: none;
+    cursor: help;
+}
+
+ul {
+    list-style: none;
+}
+
+a[href]:hover::after {
+    position: absolute;
+    content: attr(data-tooltip);
+    left: 0;
+    top: 20px;
+    min-width: 100px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+}
