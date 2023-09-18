@@ -5,3 +5,4 @@ let bool = true;
 let nothing = null;
 let undef = undefined;
 let symbol = '¢';
+
