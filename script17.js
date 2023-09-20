@@ -4,10 +4,15 @@ const myCountry = {
     language: "Hebrew",
     neighbours: "norway",
     describe: function () {
-        return this.("finland has a 6 milions people their mother tongue is Finnish, they have 3 neighbouring countries and a capital called Heksinki");  ; 
-    } 
-}
+        console.log(`${this.country} has ${this.population} people, their mother tongue is ${this.language} they have ${this.neighbors.length} neighboring countries and a capital called ${this.capital}.`); 
+    }, 
 
+    isIsland:function(){
+      return this.neighbors.length == 0 ? true : false ;
+    }
+  };
+  myCountry.describe()
+  console.log(mycountry.isIsland());
 
 
 

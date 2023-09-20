@@ -1,5 +1,5 @@
 const book = {
-    name: "The white book",
+    title: "The white book",
     autor: "j.k roloings",
     drawing: "elizabth r.",
     editor: "r.b rozvelt",
@@ -7,6 +7,6 @@ const book = {
 }
 
 for (i in book) {
-    console.log(`The book ${name} was wrriten by ${autor} in the year ${year_published}`);
+    console.log(`The ${book.title} was wrriten by ${book.autor} in the year ${book.year_published}`);
 }  
 
