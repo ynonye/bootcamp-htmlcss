@@ -56,11 +56,23 @@
 
 //ex 2.4 
 
-let uniq = [(1, 1, 1, 2, 1, 1)]
+//let uniq = [(1, 1, 1, 2, 1, 1)]
 
-function findUnique(array) {
-    (item) => array.indexOf(item) === array.lastIndexof(item);
-}
+//function findUnique(array) {
+//    (item) => array.indexOf(item) === array.lastIndexof(item);
+//}
 
-console.log(`1For the uniq arrey, the uniq num is: ${findUnique}`);
+//console.log(`For the uniq arrey, the uniq num is: ${findUnique}`);
+
+//ex. 2.5
+
+function numberSum (num) {
+    let total = 0;
+        for (let i = 1, i <= number ={; i ++} ) {
+            total += 1
+        } 
+        return total;
+}        
+
+console.log(numberSum());
 
