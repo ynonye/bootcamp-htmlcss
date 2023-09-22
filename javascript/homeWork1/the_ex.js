@@ -66,13 +66,30 @@
 
 //ex. 2.5
 
-function numberSum (num) {
-    let total = 0;
-        for (let i = 1, i <= number ={; i ++} ) {
-            total += 1
-        } 
-        return total;
-}        
+//function numberSum (num) {
+//    let total = 0;
+//        for (let i = 1, i <= number ={; i ++} ) {
+//            total += 1
+//        } 
+//        return total;
+//}        
 
-console.log(numberSum());
+//console.log(numberSum());
 
+//ex 2.6 
+
+//function centuryFromYear(year) {
+//    let centuryCount = 0;
+//    while (year > 0){
+//      year = year - 100;
+//      centuryCount = centuryCount + 1;
+//   }
+//    return centuryCount;
+//  }
+
+//console.log(centuryFromYear(1688));  
+
+
+ //ex 2.7
+
+ 
