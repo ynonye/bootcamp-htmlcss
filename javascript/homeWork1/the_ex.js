@@ -156,5 +156,56 @@
 
 // ex 5.3
 
+//function toCamelCase (str) {
+//    const arr = str.split("-");
+//        for (let i = 1; 1 < arr.lengh; i++) {
+//            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+//        }
+//        let newString = arr.join("");
+//        return newString;
+//    }
+
+//console.log(toCamelCase('the-king-slayer'));
+
+
+//ex 5.5
+
+//function abbreviateTwoWords(word1, word2) {
+//    return `${word1.charAt(0).toUpperCase()}.${word2.charAt(0).toUpperCase()}`;
+//}
+//
+//console.log(abbreviateTwoWords("Donlad", "Trump"));
+
+
+//ex 5.6
+
+//function maskify(str) {
+//    let newString = "";
+//    for (let i = 0; i < str.length; i ++)
+//        if (i >= str.length -4) {
+//            newString += str[1];
+//        }else {
+//            newString += '#';
+//        }
+//    }
+//    return newString;
+
+//console.log(maskify("123456789"));    
+
+
+//ex 5.7
+
+// function lengthOfShortestWord(str) {
+//   const wordsArr = str.split(" ");
+//   let minLength = wordsArr[0].length;
+//   for (let i = 1; i < wordsArr.length; i++) {
+//     if (wordsArr[i].length < minLength) {
+//       minLength = wordsArr[i].length;
+//     }
+//   }
+//   return minLength;
+ //}
+
+//console.log(lengthOfShortestWord('This is for your testing'));
 
 
