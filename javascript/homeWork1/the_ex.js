@@ -209,3 +209,73 @@
 //console.log(lengthOfShortestWord('This is for your testing'));
 
 
+//ex 6.1
+
+// function accum(str) {
+//   let newString = str[0].toUpperCase();
+//   for (let i = 1; i < str.length; i++) {
+//     newString += "-";
+//     for (let j = 0; j <= i; j++) {
+//       if (j == 0) {
+//         newString += str[i].toUpperCase();
+//       } else {
+//         newString += str[i].toLowerCase();
+//       }
+//     }
+//   }
+//   return newString;
+// }
+
+//console.log(accum("abcd"));
+
+
+//ex 6.2
+
+ function countDuplicates(str) {
+   const duplicates = {};
+   for (let i = 0; i < str.length; i++) {
+     let count = 0;
+     let currentChar = str[i].toLowerCase();
+     for (let k = i; k < str.length; k++) {
+       if (str[j].toLowerCase() == currentChar) {
+         count++;
+       }
+     }
+     if (count >= 2 && !(currentChar in duplicates)) {
+       duplicates[currentChar] = count;
+     }
+   }
+   if (Object.keys(duplicates).length == 0) {
+     return `no character repeats more than once`;
+   } else {
+     return duplicates;
+   }
+}
+
+console.log(countDuplicates("ABBA"));
+
+// ex. 6.3
+
+
+ function isIsogram(str) {
+   const duplicates = {};
+   for (let i = 0; i < str.length; i++) {
+     let count = 0;
+     let currentChar = str[i].toLowerCase();
+     for (let j = i; j < str.length; j++) {
+       if (str[j].toLowerCase() == currentChar) {
+         count++;
+       }
+     }
+     if (count >= 2 && !(currentChar in duplicates)) {
+       duplicates[currentChar] = count;
+     }
+   }
+   if (Object.keys(duplicates).length == 0) {
+     return true;
+   } else {
+     return false;
+   }
+}
+
+console.log(countDuplicates("aA11"));
