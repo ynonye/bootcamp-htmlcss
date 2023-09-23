@@ -115,13 +115,46 @@
 
 // ex 4.1
 
-function fib(n) {
-    let firstNum = 0;
-    let secondNum = 1;
-    for (let i = 1; i < n; i++) {
-        let tempSecondNum = secondNum;
-        secondNum += firstNum;
-        firstNum = tempSecondNum
-    }
-   }
+//function fib(n) {
+//    let firstNum = 0;
+//    let secondNum = 1;
+//    for (let i = 1; i < n; i++) {
+//        let tempSecondNum = secondNum;
+//        secondNum += firstNum;
+//        firstNum = tempSecondNum
+//    }
+//    return secondNum;
+//}
+//
+//console.log(fib(5));
+
+//ex 5.1
+
+//function trimmingString (str) {
+//    let starArr = str.split("");
+//    starArr.pop();
+//    starArr.shift();
+//    let newStr = starArr.join("");
+//    return newStr;
+//}
+
+//console.log(trimmingString("What's up"))
+
+
+// ex 5.2 
+
+//function repeatString(count, str) {
+//    let newString = '';
+//    for (let i = 0; i < count; i++) {
+//        newstr += str;
+//    }
+//    return newstr;
+//    }
+
+//console.log(repeatString(8, 'H'));    
+
+
+// ex 5.3
+
+
 
