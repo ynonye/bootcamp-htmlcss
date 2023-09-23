@@ -92,4 +92,36 @@
 
  //ex 2.7
 
- 
+//function basicMath (operation, value1, value2) {
+//    switch (operation) {
+//        case '*':
+//            return value1 * value2;
+//        case '/':
+//            return value1 / value2;
+//        case '+':
+//            return value1 + value2;
+//        case '-':
+//            return value1 * value2;
+//        default:
+//            console.log('Operation is not valid');                
+//    }       return null;
+//}
+
+//console.log(basicMath("*", 3, 5));
+//console.log(basicMath("/", 20, 4));
+//console.log(basicMath("+", 7, 6));
+//console.log(basicMath("-", 15, 3));
+
+
+// ex 4.1
+
+function fib(n) {
+    let firstNum = 0;
+    let secondNum = 1;
+    for (let i = 1; i < n; i++) {
+        let tempSecondNum = secondNum;
+        secondNum += firstNum;
+        firstNum = tempSecondNum
+    }
+   }
+
