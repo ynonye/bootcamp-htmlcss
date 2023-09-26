@@ -4,6 +4,6 @@ function getSumOfEven(arr){
     getSumOfEven([1,2,3,4,5,6,7,8,9,10]);
 
 // The problematic line is: is line 2 were not all the elements are at the same line.
-//
+//   
 //       
 
