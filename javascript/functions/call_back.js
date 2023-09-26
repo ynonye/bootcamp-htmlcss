@@ -1,8 +1,35 @@
-function isString (str, callback) {
-    if(str === string)
-        console.log('The input that you just added is a string');    
+function isString(str,callback){
+    if(typeof str === 'string'){
+        return callback(str);
+    }
+    return -1;
 }
+function printStr(str){
+    console.log(str);
+}
+isString('Hi',printStr);
 
-function firstWordUpperCase (str, callback) {
-    x = str.toUpperCase           
+function firstWordUpperCase(str,callback){
+    const strArr = str.split(' ');
+    strArr[0].toUpperCase();
+    let newStr = callback(strArr);
+    return newStr;
 }
+function dashesBetweenWords(arr){
+    let str = arr.join('-');
+    return str;
+}
+console.log(firstWordUpperCase('hello world',dashesBetweenWords));
+
+function allWordsUpperCase(str,callback){
+    const strArr = str.split(' ');
+    let newStr = callback(strArr);
+    return newStr;
+}
+function arrOfStringsToUpperCase(arr){
+    const newArr =[]
+    for (let word of arr){
+        newArr.push(word.toUpperCase());
+    }
+    return newArr.join(' ');
+}     
