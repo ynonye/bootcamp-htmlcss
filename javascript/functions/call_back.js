@@ -4,5 +4,5 @@ function isString (str, callback) {
 }
 
 function firstWordUpperCase (str, callback) {
-          
+    x = str.toUpperCase           
 }
