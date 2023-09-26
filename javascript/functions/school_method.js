@@ -37,16 +37,22 @@ const school = {
     age: 21,
     },
     ],
-    }
+    findPerson: function (personType,id){
+        return this[personType].filter(person => person.id === id);
+      },
+      assignStudent: function(studentId,subject){
+        const currentStudent = this.students.filter(student => student.id === studentId)[0];
+        for( teacher of this.teachers){
+            if(teacher.subjects.includes(subject) && teacher.capacityLeft >0){
+                teacher.students.push(currentStudent);
+                teacher.capacityLeft--;
+                return `${currentStudent.name} was assigned to the teacher ${teacher.name}.`
+            }
+        }
+        return 'Sorry, no available teachers left.'
+      }
+    };
  
-function findPerson(type, id) {
-    return students[0,1];
-}    
+ 
 
-function assignStudent(id, subject) {
-
-}
-
-function assignTeacchersSubject(teachers_id, new_subject) {
     
-}
