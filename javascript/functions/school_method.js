@@ -38,5 +38,15 @@ const school = {
     },
     ],
     }
+ 
+function findPerson(type, id) {
+    return students[0,1];
+}    
 
+function assignStudent(id, subject) {
+
+}
+
+function assignTeacchersSubject(teachers_id, new_subject) {
     
+}
