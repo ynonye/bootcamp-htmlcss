@@ -40,7 +40,7 @@ function welcome() {
     }
     const powerExpression = (a) => Math.pow(a, 2);
     
-    // From function expressions to IIFE functions.
+// From function expressions to IIFE functions.
     const squareRoot = a => Math.sqrt(a);
     const randomNumbers = (a, b) => Math.random() * (a - b) +b;
     
