@@ -13,3 +13,15 @@ function carAgency(agencyName) {
 console.log(carAgency('CarMax'));
 
 
+function carAgency(agencyName) {
+    return carMarket['sellers'].find((seller) => {
+        return seller['agencyName'] === agencyName;
+    });
+}
+
+console.log(carAgency('CarMax'));
+
+
+function addCar(newCar) {
+    
+} 
